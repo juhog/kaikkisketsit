@@ -113,3 +113,6 @@
 
 # Ignore .env files as they are personal
 /.env
+
+# Ignore Kaikki Sketsit development files
+/sqlite/
