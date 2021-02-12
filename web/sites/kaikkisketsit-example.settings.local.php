@@ -153,3 +153,10 @@ $settings['skip_permissions_hardening'] = TRUE;
  * the language or field module.
  */
 $settings['config_exclude_modules'] = ['devel', 'stage_file_proxy'];
+
+/**
+ * Config override: Devel
+ *
+ * Use 'kint' as a variables dumper.
+ */
+$config['devel.settings']['devel_dumper'] = 'kint';
